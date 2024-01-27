@@ -39,7 +39,7 @@ public class AllCoursesTests {
 		nav.allCourses();
 		ResultsPage result = search.course(courseToBeSearched);
 		boolean searchResult = result.verifySearchResult();
-		System.out.println("Total courses available for " + courseToBeSearched + " : " + result.coursesCount());
+		System.out.println("Total courses available " + courseToBeSearched + " : " + result.coursesCount());
 		Assert.assertTrue(searchResult);
 	}
 	
